@@ -4,13 +4,11 @@ module.exports = {
     es6: true
   },
   parserOptions: {
-    ecmaVersion: 2017
+    ecmaVersion: 2018,
+    sourceType: "module"
   },
-  extends: [
-    "prettier",
-    "standard",
-    "prettier/standard"
-  ],
+  "extends": ["eslint:recommended", "standard", "plugin:vue/recommended"],
+  "plugins": ["import", "vue"],
   rules: {
     indent: [
       "warn",

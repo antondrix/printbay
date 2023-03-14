@@ -1,0 +1,58 @@
+{
+	"processors": ["stylelint-processor-html"],
+	"extends": "stylelint-config-standard",
+	"ignoreFiles": [
+		""
+	],
+	"rules": {
+		"indentation": 2,
+		"string-quotes": "single",
+		"no-duplicate-selectors": true,
+		"color-hex-case": "lower",
+		"color-hex-length": "short",
+		"color-named": "never",
+		"custom-property-empty-line-before": "always",
+		"selector-no-qualifying-type": true,
+		"selector-combinator-space-after": "always",
+		"selector-attribute-quotes": "never",
+		"selector-attribute-operator-space-before": "always",
+		"selector-attribute-operator-space-after": "always",
+		"declaration-block-trailing-semicolon": "always",
+		"declaration-no-important": true,
+		"declaration-colon-space-before": "never",
+		"declaration-colon-space-after": "always",
+		"declaration-empty-line-before": "never",
+		"property-no-vendor-prefix": true,
+		"value-no-vendor-prefix": true,
+		"number-leading-zero": "never",
+		"function-url-quotes": "always",
+		"font-weight-notation": "numeric",
+		"font-family-name-quotes": "always-where-required",
+		"comment-whitespace-inside": "always",
+		"comment-empty-line-before": "always",
+		"import-notation": "string",
+		"at-rule-no-vendor-prefix": true,
+		"rule-empty-line-before": "always-multi-line",
+		"selector-pseudo-element-colon-notation": "double",
+		"selector-class-pattern": "^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$",
+		"selector-pseudo-class-parentheses-space-inside": "always",
+		"selector-no-vendor-prefix": true,
+		"selector-max-universal": 2,
+		"selector-max-type": 2,
+		"media-feature-range-operator-space-before": "always",
+		"media-feature-range-operator-space-after": "always",
+		"media-feature-parentheses-space-inside": "never",
+		"media-feature-name-no-vendor-prefix": true,
+		"media-feature-colon-space-before": "never",
+		"media-feature-colon-space-after": "always",
+		"color-function-notation": "legacy",
+		"at-rule-no-unknown": [
+			true,
+			{
+				"ignoreAtRules": [
+					"include"
+				]
+			}
+		]
+	}
+}
